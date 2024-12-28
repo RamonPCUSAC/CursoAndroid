@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:textSize="40sp"
-            android:text="BIENVENIDOS"
+            android:text="BIENVENIDO"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -26,19 +26,20 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_marginTop="25dp"
+            android:src="@mipmap/anndroid"
             app:layout_constraintTop_toBottomOf="@+id/homeTitle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/editText"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
             android:inputType="text"
-            android:text="Usuario"
+            android:hint="User"
             app:layout_constraintTop_toBottomOf="@+id/imgWelcome"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -47,7 +48,7 @@
             android:id="@+id/btnContinue"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Log in"
+            android:text="continuar"
             android:textSize="25sp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
